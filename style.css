@@ -1,0 +1,220 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    font-family: 'Nunito', sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    background-color:  #457b9d;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    background-size: cover;
+    background-position: 10% 55%;
+    
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.container {
+    padding: 30px;
+    width: 500px;
+    background-color: #F1FAEE;
+    border-radius: 10px; 
+}
+
+.container .generator-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+      
+}
+
+.container .generator-wrapper .header {
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #343a40;
+}
+
+
+.container .generator-wrapper .features-wrapper {
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .generator-wrapper .features-wrapper .password-feature{
+    margin-top: 15px;
+}
+
+.container .generator-wrapper .features-wrapper .range-number{
+    margin-top: 20px;
+}
+
+.container .generator-wrapper .features-wrapper .info {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 15px;
+   
+}
+
+.container .generator-wrapper .features-wrapper .strength {
+    padding: 25px;
+}
+
+
+
+.container .generator-wrapper .features-wrapper .range-input {
+    padding: 20px;
+
+}
+
+
+.container .generator-wrapper .features-wrapper .generate-btn{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    background: #1D3557;
+    padding: 15px 40px;
+    border-radius: 6px;
+    font-weight: normal;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer; 
+}
+
+.generate-btn:hover{
+    box-shadow: 0 5px 15px #1D3557;
+
+}
+
+.container .generator-wrapper .password-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #A8DADC;
+    border-radius: 10px;
+    color: #343a40;
+    font-weight: 500;
+}
+
+
+.container .generator-wrapper .password-wrapper .copy-to-clipboard{
+    border: none;
+    background-color: #A8DADC;
+    
+}
+
+.container .generator-wrapper .password-wrapper .copy-to-clipboard .copy-image {
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    scale: 2;
+   
+}
+
+.container .generator-wrapper .password-wrapper .password-card {
+    border: none;
+    width: 400px;
+    padding: 10px;
+}
+
+progress[value] {
+    -webkit-appearance: none;
+     appearance: none;
+}
+
+progress[value]::-webkit-progress-bar {
+    background-color: #A8DADC;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+    
+}
+
+  progress[value]::-webkit-progress-value {
+    background-color: #457B9D;
+    border-radius: 2px; 
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+input[type=range] {
+    height: 38px;
+    -webkit-appearance: none;
+    margin: 10px 0;
+    width: 100%;
+    background: none;
+}
+
+  
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 10px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #000000;
+    background: #A8DADC;
+    border-radius: 5px;
+    border: 1px solid #000000;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    border: 1px solid #000000;
+    height: 30px;
+    width: 15px;
+    border-radius: 5px;
+    background: #457B9D;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -11px;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #A8DADC;
+}
+
+input[type=checkbox] {
+    accent-color: #A8DADC;
+    cursor: pointer;
+}
+ 
+ 
+ 
